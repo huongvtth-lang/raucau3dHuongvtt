@@ -11,7 +11,7 @@ const products = [
         description: "Hoa hồng tinh tế với cánh mỏng tang, trong veo như pha lê",
         price: 500000,
         badge: "Bán chạy",
-        image: "images/product-1.png"
+        image: "product-1.png"
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const products = [
         description: "Hoa sen thanh khiết, biểu tượng của sự tinh khôi Việt Nam",
         price: 550000,
         badge: "Đặc biệt",
-        image: "images/product-2.png"
+        image: "product-2.png"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const products = [
         description: "Mẫu đơn phú quý, nhiều lớp cánh xếp tinh xảo",
         price: 550000,
         badge: "Premium",
-        image: "images/product-3.png"
+        image: "product-3.png"
     },
     {
         id: 4,
@@ -35,7 +35,7 @@ const products = [
         description: "Bó hoa nhỏ xinh, hoàn hảo làm quà tặng đặc biệt",
         price: 420000,
         badge: null,
-        image: "images/product-1.png"
+        image: "product-1.png"
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ const products = [
         description: "Thiết kế đặc biệt cho ngày sinh nhật đáng nhớ",
         price: 480000,
         badge: "Quà tặng",
-        image: "images/product-2.png"
+        image: "product-2.png"
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const products = [
         description: "Sang trọng và tinh tế cho ngày trọng đại",
         price: 600000,
         badge: "Wedding",
-        image: "images/product-3.png"
+        image: "product-3.png"
     },
     {
         id: 7,
@@ -59,7 +59,7 @@ const products = [
         description: "Hoa mai, hoa đào rực rỡ đón xuân về",
         price: 580000,
         badge: "Tết 2026",
-        image: "images/hero-jelly.png"
+        image: "hero-jelly.png"
     }
 ];
 
@@ -373,3 +373,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Expose scrollToOrder globally
 window.scrollToOrder = scrollToOrder;
+
